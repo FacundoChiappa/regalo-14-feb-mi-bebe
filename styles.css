@@ -1,3 +1,59 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #fde6e6;
+    color: #000000;
+    padding: 20px;
+    background-image: url('img/fondo_corazones.jpg');
+    background-size: cover;
+}
+
+h1 {
+    color: #e87979;
+}
+
+p {
+    font-weight: bold;
+}
+
+.timeline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.event {
+    margin: 20px 0;
+    text-align: left;
+    width: 100%; /* Ajusta el ancho del evento al 100% en dispositivos móviles y 48% en pantallas más grandes */
+    max-width: 600px; /* Establece un ancho máximo para mantener la legibilidad en pantallas más grandes */
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes se muevan a la siguiente línea si no hay suficiente espacio */
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.image-container img {
+    width: 100%; /* Ajusta el ancho de las imágenes al 100% del contenedor */
+    max-width: 300px; /* Establece un ancho máximo para controlar el tamaño de las imágenes */
+    margin-bottom: 10px; /* Agrega un espacio entre las imágenes */
+    border-radius: 8px;
+}
+
+.caption {
+    font-style: italic;
+    text-align: center;
+    color: #aa8e8e;
+}
+=======
 body {
     font-family: 'Arial', sans-serif;
     text-align: center;
